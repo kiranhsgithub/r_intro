@@ -25,4 +25,7 @@ library(car)
 vif(model1)
 
 par(mfrow=c(2,2)) # init 4 charts in 1 panel
+
 plot(model1)
+
+?rstudent
